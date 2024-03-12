@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio-416</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://radio416.emidblol.dev/static/uploads/radio-416/background.1709989479.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        audio {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+        #logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        #now-playing {
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            padding: 10px;
+        }
+        #now-playing p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="logo" src="https://radio416.emidblol.dev/api/station/radio-416/art/bef35c1038aa80bc345c61a1" alt="Radio-416 Logo">
+        <h1>Radio-416</h1>
+        <audio controls autoplay>
+            <source src="https://icecastradio416.emidblol.dev/main" type="application/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+</body>
+</html>
